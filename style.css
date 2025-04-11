@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-top: 3ic;
+    margin-left: 6ic;
+    margin-right: 6ic;
+    margin-bottom: 3ic;
+    padding: 20px;
+    color: #333;
+}   
+
+.header {
+    margin-left: 220px;
+    margin-right: 220px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.module-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: maroon;
+    color: white;
+    gap: 5px;
+    padding: 5px;
+    width: 20%;
+    text-align: right;
+}
+
+.mtitle {   
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.chapter-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.page1{
+    display: flex;
+    align-items: left;
+}
+.objectives {
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+.objectives img {
+    width: 80px;
+    margin-right: 20px;
+  }
+
+  .objectives {
+    text-align: left;
+  }
+
+  .objectives bold {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+.lesson-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 25px 0 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.code-block {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-family: monospace;
+    white-space: pre;
+    margin: 10px 0;
+    overflow-x: auto;
+}
+
+.output-block {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: monospace;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.page-number {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.note {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.output-block img {
+    width: 100%;
+}
+
+.reference {
+    background-color: skyblue;
+    width: 20%;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding-left: -100px;
+}
+
+.reference img {
+    width: 50px;
+}
